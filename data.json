@@ -1,0 +1,129 @@
+{
+	"flagships": [
+		{
+			"type": "index",
+			"banners": [
+				{
+					"caption": "电视剧一号",
+					"info": "这里是电视剧一号的信息",
+					"image": "/static/image/tv/tv0.jpg"
+				},
+				{
+					"caption": "电影一号",
+					"info": "这里是电影一号的信息",
+					"image": "/static/image/movie/movie0.jpg"
+				},
+				{
+					"caption": "综艺一号",
+					"info": "这里是综艺一号的信息",
+					"image": "/static/image/variety/variety0.jpg"
+				},
+				{
+					"caption": "直播一号",
+					"info": "这里是直播一号的信息",
+					"image": "/static/image/live/live0.jpg"
+				}
+			]
+		},
+		{
+			"type": "tv",
+			"banners": [
+				{
+					"caption": "电视剧一号",
+					"info": "这里是电视剧一号的信息",
+					"image": "/static/image/tv/tv0.jpg"
+				},
+				{
+					"caption": "电视剧二号",
+					"info": "这里是电视剧二号的信息",
+					"image": "/static/image/tv/tv1.jpg"
+				},
+				{
+					"caption": "电视剧三号",
+					"info": "这里是电视剧三号的信息",
+					"image": "/static/image/tv/tv2.jpg"
+				},
+				{
+					"caption": "电视剧四号",
+					"info": "这里是电视剧四号的信息",
+					"image": "/static/image/tv/tv3.jpg"
+				}
+			]
+		},
+		{
+			"type": "movie",
+			"banners": [
+				{
+					"caption": "电影一号",
+					"info": "这里是电影一号的信息",
+					"image": "/static/image/movie/movie0.jpg"
+				},
+				{
+					"caption": "电影二号",
+					"info": "这里是电影二号的信息",
+					"image": "/static/image/movie/movie1.jpg"
+				},
+				{
+					"caption": "电影三号",
+					"info": "这里是电影三号的信息",
+					"image": "/static/image/movie/movie2.jpg"
+				},
+				{
+					"caption": "电影四号",
+					"info": "这里是电影四号的信息",
+					"image": "/static/image/movie/movie3.jpg"
+				}
+			]
+		},
+		{
+			"type": "variety",
+			"banners": [
+				{
+					"caption": "综艺一号",
+					"info": "这里是综艺一号的信息",
+					"image": "/static/image/variety/variety0.jpg"
+				},
+				{
+					"caption": "综艺二号",
+					"info": "这里是综艺二号的信息",
+					"image": "/static/image/variety/variety1.jpg"
+				},
+				{
+					"caption": "综艺三号",
+					"info": "这里是综艺三号的信息",
+					"image": "/static/image/variety/variety2.jpg"
+				},
+				{
+					"caption": "综艺四号",
+					"info": "这里是综艺四号的信息",
+					"image": "/static/image/variety/variety3.jpg"
+				}
+			]
+		},
+		{
+			"type": "live",
+			"banners": [
+				{
+					"caption": "直播一号",
+					"info": "这里是直播一号的信息",
+					"image": "/static/image/live/live0.jpg"
+				},
+				{
+					"caption": "直播二号",
+					"info": "这里是直播二号的信息",
+					"image": "/static/image/live/live1.jpg"
+				},
+				{
+					"caption": "直播三号",
+					"info": "这里是直播三号的信息",
+					"image": "/static/image/live/live2.jpg"
+				},
+				{
+					"caption": "直播四号",
+					"info": "这里是直播四号的信息",
+					"image": "/static/image/live/live3.jpg"
+				}
+			]
+		}
+	]
+}
