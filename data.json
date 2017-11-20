@@ -4,24 +4,28 @@
 			"type": "index",
 			"banners": [
 				{
+					"id": 1,
 					"caption": "电视剧一号",
-					"info": "这里是电视剧一号的信息",
-					"image": "/static/image/tv/tv0.jpg"
+					"summary": "这里是电视剧一号的信息",
+					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
+					"id": 1,
 					"caption": "电影一号",
-					"info": "这里是电影一号的信息",
-					"image": "/static/image/movie/movie0.jpg"
+					"summary": "这里是电影一号的信息",
+					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
+					"id": 1,
 					"caption": "综艺一号",
-					"info": "这里是综艺一号的信息",
-					"image": "/static/image/variety/variety0.jpg"
+					"summary": "这里是综艺一号的信息",
+					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
+					"id": 1,
 					"caption": "直播一号",
-					"info": "这里是直播一号的信息",
-					"image": "/static/image/live/live0.jpg"
+					"summary": "这里是直播一号的信息",
+					"image": "https://lorempixel.com/1920/400/"
 				}
 			]
 		},
@@ -29,24 +33,28 @@
 			"type": "tv",
 			"banners": [
 				{
+					"id": 1,
 					"caption": "电视剧一号",
-					"info": "这里是电视剧一号的信息",
-					"image": "/static/image/tv/tv0.jpg"
+					"summary": "这里是电视剧一号的信息",
+					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
+					"id": 2,
 					"caption": "电视剧二号",
-					"info": "这里是电视剧二号的信息",
-					"image": "/static/image/tv/tv1.jpg"
+					"summary": "这里是电视剧二号的信息",
+					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
+					"id": 3,
 					"caption": "电视剧三号",
-					"info": "这里是电视剧三号的信息",
-					"image": "/static/image/tv/tv2.jpg"
+					"summary": "这里是电视剧三号的信息",
+					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
+					"id": 4,
 					"caption": "电视剧四号",
-					"info": "这里是电视剧四号的信息",
-					"image": "/static/image/tv/tv3.jpg"
+					"summary": "这里是电视剧四号的信息",
+					"image": "https://lorempixel.com/1920/400/"
 				}
 			]
 		},
@@ -54,24 +62,28 @@
 			"type": "movie",
 			"banners": [
 				{
+					"id": 1,
 					"caption": "电影一号",
-					"info": "这里是电影一号的信息",
-					"image": "/static/image/movie/movie0.jpg"
+					"summary": "这里是电影一号的信息",
+					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
+					"id": 2,
 					"caption": "电影二号",
-					"info": "这里是电影二号的信息",
-					"image": "/static/image/movie/movie1.jpg"
+					"summary": "这里是电影二号的信息",
+					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
+					"id": 3,
 					"caption": "电影三号",
-					"info": "这里是电影三号的信息",
-					"image": "/static/image/movie/movie2.jpg"
+					"summary": "这里是电影三号的信息",
+					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
+					"id": 4,
 					"caption": "电影四号",
-					"info": "这里是电影四号的信息",
-					"image": "/static/image/movie/movie3.jpg"
+					"summary": "这里是电影四号的信息",
+					"image": "https://lorempixel.com/1920/400/"
 				}
 			]
 		},
@@ -79,24 +91,28 @@
 			"type": "variety",
 			"banners": [
 				{
+					"id": 1,
 					"caption": "综艺一号",
-					"info": "这里是综艺一号的信息",
-					"image": "/static/image/variety/variety0.jpg"
+					"summary": "这里是综艺一号的信息",
+					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
+					"id": 2,
 					"caption": "综艺二号",
-					"info": "这里是综艺二号的信息",
-					"image": "/static/image/variety/variety1.jpg"
+					"summary": "这里是综艺二号的信息",
+					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
+					"id": 3,
 					"caption": "综艺三号",
-					"info": "这里是综艺三号的信息",
-					"image": "/static/image/variety/variety2.jpg"
+					"summary": "这里是综艺三号的信息",
+					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
+					"id": 4,
 					"caption": "综艺四号",
-					"info": "这里是综艺四号的信息",
-					"image": "/static/image/variety/variety3.jpg"
+					"summary": "这里是综艺四号的信息",
+					"image": "https://lorempixel.com/1920/400/"
 				}
 			]
 		},
@@ -104,24 +120,146 @@
 			"type": "live",
 			"banners": [
 				{
+					"id": 1,
 					"caption": "直播一号",
-					"info": "这里是直播一号的信息",
-					"image": "/static/image/live/live0.jpg"
+					"summary": "这里是直播一号的信息",
+					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
+					"id": 2,
 					"caption": "直播二号",
-					"info": "这里是直播二号的信息",
-					"image": "/static/image/live/live1.jpg"
+					"summary": "这里是直播二号的信息",
+					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
+					"id": 3,
 					"caption": "直播三号",
-					"info": "这里是直播三号的信息",
-					"image": "/static/image/live/live2.jpg"
+					"summary": "这里是直播三号的信息",
+					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
+					"id": 4,
 					"caption": "直播四号",
-					"info": "这里是直播四号的信息",
-					"image": "/static/image/live/live3.jpg"
+					"summary": "这里是直播四号的信息",
+					"image": "https://lorempixel.com/1920/400/"
+				}
+			]
+		}
+	],
+	"resource": [
+		{
+			"type": "tv",
+			"data": [
+				{
+					"id": 1,
+					"caption": "电视剧一号",
+					"summary": "大家好欢迎来到电视剧一号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 2,
+					"caption": "电视剧二号",
+					"summary": "大家好欢迎来到电视剧二号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 3,
+					"caption": "电视剧三号",
+					"summary": "大家好欢迎来到电视剧三号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 4,
+					"caption": "电视剧四号",
+					"summary": "大家好欢迎来到电视剧四号",
+					"image": "https://lorempixel.com/1920/400/"
+				}
+			]
+		},
+		{
+			"type": "movie",
+			"data": [
+				{
+					"id": 1,
+					"caption": "电影一号",
+					"summary": "大家好欢迎来到电影一号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 2,
+					"caption": "电影二号",
+					"summary": "大家好欢迎来到电影二号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 3,
+					"caption": "电影三号",
+					"summary": "大家好欢迎来到电影三号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 4,
+					"caption": "电影四号",
+					"summary": "大家好欢迎来到电影四号",
+					"image": "https://lorempixel.com/1920/400/"
+				}
+			]
+		},
+		{
+			"type": "variety",
+			"data": [
+				{
+					"id": 1,
+					"caption": "综艺一号",
+					"summary": "大家好欢迎来到综艺一号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 2,
+					"caption": "综艺二号",
+					"summary": "大家好欢迎来到综艺二号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 3,
+					"caption": "综艺三号",
+					"summary": "大家好欢迎来到综艺三号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 4,
+					"caption": "综艺四号",
+					"summary": "大家好欢迎来到综艺四号",
+					"image": "https://lorempixel.com/1920/400/"
+				}
+			]
+		},
+		{
+			"type": "live",
+			"data": [
+				{
+					"id": 1,
+					"caption": "直播一号",
+					"summary": "大家好欢迎来到直播一号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 2,
+					"caption": "直播二号",
+					"summary": "大家好欢迎来到直播二号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 3,
+					"caption": "直播三号",
+					"summary": "大家好欢迎来到直播三号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 4,
+					"caption": "直播四号",
+					"summary": "大家好欢迎来到直播四号",
+					"image": "https://lorempixel.com/1920/400/"
 				}
 			]
 		}

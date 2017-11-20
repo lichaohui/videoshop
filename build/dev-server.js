@@ -43,6 +43,23 @@ router.get('/flagships',(req,res) => {
 	})
 })
 
+//获取资源的路由
+router.get('/resource',(req,res) => {
+	let resources = appdata.resource
+	let result
+	if(req.query.type == 'all'){
+		result = resources
+	}else{
+		result = resources.filter((resource) => {
+			return resource.type == req.query.type
+		})[0].data
+	}
+	res.json({
+		isSuccess: true,
+		data: result
+	})
+})
+
 //使用路由
 app.use('/api',router)
 
