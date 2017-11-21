@@ -1,4 +1,5 @@
 import carousel from '../carousel/index.vue'
+import footers from '../footer/index.vue'
 
 export default {
 	props: {
@@ -28,7 +29,8 @@ export default {
 		}
 	},
 	components: {
-		carousel
+		carousel,
+		footers
 	},
 	created() {
 		//获取旗舰产品

@@ -11,7 +11,7 @@
           tag="article"
           class="mb-2 pt-2 pl-2 pr-2 col-md-3 col-sm-6 col-12">
 						<p class="card-text">{{ resource.summary }}</p>
-						<b-button href="#" variant="primary" class='btn-sm'>进入</b-button>
+						<b-button v-bind:href="'/tv?id='+resource.id" variant="primary" class='btn-sm'>进入</b-button>
 					</b-card>
         </b-tab>
       </b-tabs>
@@ -30,8 +30,8 @@
           img-top
           tag="article"
           class="mb-2 pt-2 pl-2 pr-2 col-md-3 col-sm-6 col-xs-12">
-						<p class="card-text">{{ resource.summary }} | {{ resource.type }}</p>
-						<b-button href="#" variant="primary" class='btn-sm'>进入</b-button>
+						<p class="card-text">{{ resource.summary }}</p>
+						<b-button v-bind:href="'/movie?id='+resource.id" variant="primary" class='btn-sm'>进入</b-button>
 				</b-card>
       </b-tabs>
     </b-card>
@@ -45,7 +45,7 @@
           tag="article"
           class="mb-2 pt-2 pl-2 pr-2 col-md-3 col-sm-6 col-xs-12">
 						<p class="card-text">{{ resource.summary }}</p>
-						<b-button href="#" variant="primary" class='btn-sm'>进入</b-button>
+						<b-button v-bind:href="'/variety?id='+resource.id" variant="primary" class='btn-sm'>进入</b-button>
 					</b-card>
         </b-tab>
       </b-tabs>
@@ -60,12 +60,14 @@
           tag="article"
           class="mb-2 pt-2 pl-2 pr-2 col-md-3 col-sm-6 col-xs-12">
 						<p class="card-text">{{ resource.summary }}</p>
-						<b-button href="#" variant="primary" class='btn-sm'>进入</b-button>
+						<b-button v-bind:href="'/live?id='+resource.id" variant="primary" class='btn-sm'>进入</b-button>
 					</b-card>
         </b-tab>
       </b-tabs>
     </b-card>
+		<footers></footers>
 	</main>
+	
 </template>
 
 <style lang='stylus' scope>
