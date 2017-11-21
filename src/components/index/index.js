@@ -13,6 +13,7 @@ export default {
 				},
 				{
 					type: 'movie',
+					showingType: 'all',
 					data: []
 				},
 				{
@@ -44,14 +45,20 @@ export default {
 		//获取全部资源
 		this.$http.get('/api/resource',{params: {type: 'all'}}).then((res) => {
 			if(res.body.isSuccess) {
-				let resources = res.body.data
-				/*this.resources.tv = resources.filter((resource) => {
-					return resource.type == 'tv'
-				})
-				console.log(this.resources.tv)*/
+				let results = res.body.data
+				for(let resource of this.resources){
+					resource.data = results.filter((result) => {
+						return result.type == resource.type
+					})[0].data
+				}
 			}else{
 				alert(res.statusText)
 			}
 		})
+	},
+	methods: {
+		movieShowingType(showingType){
+			this.resources[1].showingType = showingType
+		}
 	}
 }

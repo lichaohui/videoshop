@@ -11,7 +11,6 @@
 					<b-dropdown-item href="/movie?type=comedy">喜剧</b-dropdown-item>
 					<b-dropdown-item href="/movie?type=love">爱情</b-dropdown-item>
 					<b-dropdown-item href="/movie?type=terror">恐怖</b-dropdown-item>
-					<b-dropdown-item href="/movie?type=science">科幻</b-dropdown-item>
 					<b-dropdown-item href="/movie?type=action">动作</b-dropdown-item>
 				</b-nav-item-dropdown>
 				<b-nav-item href="/variety">综艺</b-nav-item>
