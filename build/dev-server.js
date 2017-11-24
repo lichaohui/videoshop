@@ -31,6 +31,22 @@ const appdata = require('../data.json')
 //路由
 const router = express.Router()
 
+//获取导航数据的路由
+router.get('/navs',(req,res) => {
+	let resources = appdata.resource
+	let result = []
+	for(let resource of resources){
+		let obj = {}
+    obj.type = resource.type
+		obj.styles = resource.styles
+		result.push(obj)
+	}
+	res.json({
+		isSuccess: true,
+		data: result
+	})
+})
+
 //获取旗舰资源（主打的电视剧、电影）的路由
 router.get('/flagships',(req,res) => {
 	let flagships = appdata.flagships
@@ -46,17 +62,30 @@ router.get('/flagships',(req,res) => {
 //获取资源的路由
 router.get('/resource',(req,res) => {
 	let resources = appdata.resource
-	let result
+	let _results, results, page, pagesize
+	page = req.query.page ? req.query.page : 1
+	pagesize = req.query.pagesize ? req.query.pagesize : 16
 	if(req.query.type == 'all'){
-		result = resources
+		_results = resources
 	}else{
-		result = resources.filter((resource) => {
-			return resource.type == req.query.type
-		})[0].data
+		_results = resources.filter((resource) => {
+			return resource.type.name == req.query.type
+		})
+	}
+	if(req.query.style){
+		results = _results[0].data.filter((data) => {
+			return data.style == req.query.style
+		})
+		results = results.slice((page-1)*pagesize, page*pagesize)
+	}else{
+		results = _results
+		for(let result of results){
+			result.data = result.data.slice((page-1)*pagesize, page*pagesize)
+		}
 	}
 	res.json({
 		isSuccess: true,
-		data: result
+		data: results
 	})
 })
 

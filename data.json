@@ -34,24 +34,28 @@
 			"banners": [
 				{
 					"id": 1,
+					"style": "comedy",
 					"caption": "电视剧一号",
 					"summary": "这里是电视剧一号的信息",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 2,
+					"style": "history",
 					"caption": "电视剧二号",
 					"summary": "这里是电视剧二号的信息",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 3,
+					"style": "love",
 					"caption": "电视剧三号",
 					"summary": "这里是电视剧三号的信息",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 4,
+					"style": "soap",
 					"caption": "电视剧四号",
 					"summary": "这里是电视剧四号的信息",
 					"image": "https://lorempixel.com/1920/400/"
@@ -63,24 +67,28 @@
 			"banners": [
 				{
 					"id": 1,
+					"style": "comedy",
 					"caption": "电影一号",
 					"summary": "这里是电影一号的信息",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 2,
+					"style": "love",
 					"caption": "电影二号",
 					"summary": "这里是电影二号的信息",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 3,
+					"style": "terror",
 					"caption": "电影三号",
 					"summary": "这里是电影三号的信息",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 4,
+					"style": "action",
 					"caption": "电影四号",
 					"summary": "这里是电影四号的信息",
 					"image": "https://lorempixel.com/1920/400/"
@@ -92,24 +100,28 @@
 			"banners": [
 				{
 					"id": 1,
+					"style"； "lives",
 					"caption": "综艺一号",
 					"summary": "这里是综艺一号的信息",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 2,
+					"style": "interview",
 					"caption": "综艺二号",
 					"summary": "这里是综艺二号的信息",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 3,
+					"style": "emotion",
 					"caption": "综艺三号",
 					"summary": "这里是综艺三号的信息",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 4,
+					"style": "music",
 					"caption": "综艺四号",
 					"summary": "这里是综艺四号的信息",
 					"image": "https://lorempixel.com/1920/400/"
@@ -121,24 +133,28 @@
 			"banners": [
 				{
 					"id": 1,
+					"style": "sport",
 					"caption": "直播一号",
 					"summary": "这里是直播一号的信息",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 2,
+					"style": "game",
 					"caption": "直播二号",
 					"summary": "这里是直播二号的信息",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 3,
+					"style": "sport",
 					"caption": "直播三号",
 					"summary": "这里是直播三号的信息",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 4,
+					"style": "game",
 					"caption": "直播四号",
 					"summary": "这里是直播四号的信息",
 					"image": "https://lorempixel.com/1920/400/"
@@ -148,145 +164,275 @@
 	],
 	"resource": [
 		{
-			"type": "tv",
+			"type": {
+				"name": "tv",
+				"nameInChinese": "电视剧"
+			},
+			"styles": [
+				{
+					"name": "comedy",
+					"nameInChinese": "喜剧"
+				},
+				{
+					"name": "history",
+					"nameInChinese": "历史"
+				},
+				{
+				  "name": "love",
+					"nameInChinese": "爱情"
+				},
+				{
+					"name": "soap",
+					"nameInChinese": "肥皂剧"
+				}
+			],
 			"data": [
 				{
 					"id": 1,
+					"style": "comedy",
 					"caption": "电视剧一号",
 					"summary": "大家好欢迎来到电视剧一号",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 2,
+					"style": "history",
 					"caption": "电视剧二号",
 					"summary": "大家好欢迎来到电视剧二号",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 3,
+					"style": "love",
 					"caption": "电视剧三号",
 					"summary": "大家好欢迎来到电视剧三号",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 4,
+					"style": "soap",
 					"caption": "电视剧四号",
 					"summary": "大家好欢迎来到电视剧四号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 5,
+					"style": "comedy",
+					"caption": "电视剧五号",
+					"summary": "大家好欢迎来到电视剧五号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 6,
+					"style": "history",
+					"caption": "电视剧六号",
+					"summary": "大家好欢迎来到电视剧六号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 7,
+					"style": "love",
+					"caption": "电视剧七号",
+					"summary": "大家好欢迎来到电视剧七号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 8,
+					"style": "soap",
+					"caption": "电视剧八号",
+					"summary": "大家好欢迎来到电视剧八号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 9,
+					"style": "comedy",
+					"caption": "电视剧九号",
+					"summary": "大家好欢迎来到电视剧九号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 10,
+					"style": "history",
+					"caption": "电视剧十号",
+					"summary": "大家好欢迎来到电视剧十号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 11,
+					"style": "love",
+					"caption": "电视剧十一号",
+					"summary": "大家好欢迎来到电视剧十一号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 12,
+					"style": "soap",
+					"caption": "电视剧十二号",
+					"summary": "大家好欢迎来到电视剧十二号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 13,
+					"style": "comedy",
+					"caption": "电视剧十三号",
+					"summary": "大家好欢迎来到电视剧十三号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 14,
+					"style": "history",
+					"caption": "电视剧十四号",
+					"summary": "大家好欢迎来到电视剧十四号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 15,
+					"style": "love",
+					"caption": "电视剧十五号",
+					"summary": "大家好欢迎来到电视剧十五号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 16,
+					"style": "soap",
+					"caption": "电视剧十六号",
+					"summary": "大家好欢迎来到电视剧十六号",
 					"image": "https://lorempixel.com/1920/400/"
 				}
 			]
 		},
 		{
-			"type": "movie",
+			"type": {
+				"name": "movie",
+				"nameInChinese": "电影"
+			},
+			"styles": [
+				{
+					"name": "comedy",
+					"nameInChinese": "喜剧"
+				},
+				{
+					"name": "love",
+					"nameInChinese": "爱情"
+				},
+				{
+				  "name": "terror",
+					"nameInChinese": "恐怖"
+				},
+				{
+					"name": "action",
+					"nameInChinese": "动作"
+				}
+			],
 			"data": [
 				{
 					"id": 1,
-					"type": "comedy",
+					"style": "comedy",
 					"caption": "电影一号",
 					"summary": "大家好欢迎来到电影一号",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 2,
-					"type": "love",
+					"style": "love",
 					"caption": "电影二号",
 					"summary": "大家好欢迎来到电影二号",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 3,
-					"type": "terror",
+					"style": "terror",
 					"caption": "电影三号",
 					"summary": "大家好欢迎来到电影三号",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 4,
-					"type": "action",
+					"style": "action",
 					"caption": "电影四号",
 					"summary": "大家好欢迎来到电影四号",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 5,
-					"type": "comedy",
+					"style": "comedy",
 					"caption": "电影五号",
 					"summary": "大家好欢迎来到电影五号",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 6,
-					"type": "love",
+					"style": "love",
 					"caption": "电影六号",
 					"summary": "大家好欢迎来到电影六号",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 7,
-					"type": "terror",
+					"style": "terror",
 					"caption": "电影七号",
 					"summary": "大家好欢迎来到电影七号",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 8,
-					"type": "action",
+					"style": "action",
 					"caption": "电影八号",
 					"summary": "大家好欢迎来到电影八号",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 9,
-					"type": "comedy",
+					"style": "comedy",
 					"caption": "电影九号",
 					"summary": "大家好欢迎来到电影九号",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 10,
-					"type": "love",
+					"style": "love",
 					"caption": "电影十号",
 					"summary": "大家好欢迎来到电影十号",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 11,
-					"type": "terror",
+					"style": "terror",
 					"caption": "电影十一号",
 					"summary": "大家好欢迎来到电影十一号",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 12,
-					"type": "action",
+					"style": "action",
 					"caption": "电影十二号",
 					"summary": "大家好欢迎来到电影十二号",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 13,
-					"type": "comedy",
+					"style": "comedy",
 					"caption": "电影十三号",
 					"summary": "大家好欢迎来到电影十三号",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 14,
-					"type": "love",
+					"style": "love",
 					"caption": "电影十四号",
 					"summary": "大家好欢迎来到电影十四号",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 15,
-					"type": "terror",
+					"style": "terror",
 					"caption": "电影十五号",
 					"summary": "大家好欢迎来到电影十五号",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 16,
-					"type": "action",
+					"style": "action",
 					"caption": "电影十六号",
 					"summary": "大家好欢迎来到电影十六号",
 					"image": "https://lorempixel.com/1920/400/"
@@ -294,59 +440,213 @@
 			]
 		},
 		{
-			"type": "variety",
+			"type": {
+				"name": "variety",
+				"nameInChinese": "综艺"
+			},
+			"styles": [
+				{
+					"name": "lives",
+					"nameInChinese": "生活"
+				},
+				{
+					"name": "interview",
+					"nameInChinese": "访谈"
+				},
+				{
+				  "name": "emotion",
+					"nameInChinese": "情感"
+				},
+				{
+					"name": "music",
+					"nameInChinese": "音乐"
+				}
+			],
 			"data": [
 				{
 					"id": 1,
+					"style": "lives",
 					"caption": "综艺一号",
 					"summary": "大家好欢迎来到综艺一号",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 2,
+					"style": "interview",
 					"caption": "综艺二号",
 					"summary": "大家好欢迎来到综艺二号",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 3,
+					"style": "emotion",
 					"caption": "综艺三号",
 					"summary": "大家好欢迎来到综艺三号",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 4,
+					"style": "music",
 					"caption": "综艺四号",
 					"summary": "大家好欢迎来到综艺四号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 5,
+					"style": "lives",
+					"caption": "综艺五号",
+					"summary": "大家好欢迎来到综艺五号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 6,
+					"style": "interview",
+					"caption": "综艺六号",
+					"summary": "大家好欢迎来到综艺六号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 7,
+					"style": "emotion",
+					"caption": "综艺七号",
+					"summary": "大家好欢迎来到综艺七号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 8,
+					"style": "music",
+					"caption": "综艺八号",
+					"summary": "大家好欢迎来到综艺八号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 9,
+					"style": "lives",
+					"caption": "综艺九号",
+					"summary": "大家好欢迎来到综艺九号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 10,
+					"style": "interview",
+					"caption": "综艺十号",
+					"summary": "大家好欢迎来到综艺十号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 11,
+					"style": "emotion",
+					"caption": "综艺十一号",
+					"summary": "大家好欢迎来到综艺十一号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 12,
+					"style": "music",
+					"caption": "综艺十二号",
+					"summary": "大家好欢迎来到综艺十二号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 13,
+					"style": "lives",
+					"caption": "综艺十三号",
+					"summary": "大家好欢迎来到综艺十三号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 14,
+					"style": "interview",
+					"caption": "综艺十四号",
+					"summary": "大家好欢迎来到综艺十四号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 15,
+					"style": "emotion",
+					"caption": "综艺十五号",
+					"summary": "大家好欢迎来到综艺十五号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 16,
+					"style": "music",
+					"caption": "综艺十六号",
+					"summary": "大家好欢迎来到综艺十六号",
 					"image": "https://lorempixel.com/1920/400/"
 				}
 			]
 		},
 		{
-			"type": "live",
+			"type": {
+				"name": "live",
+				"nameInChinese": "直播"
+			},
+			"styles": [
+				{
+					"name": "sport",
+					"nameInChinese": "体育"
+				},
+				{
+					"name": "game",
+					"nameInChinese": "电竞"
+				}
+			],
 			"data": [
 				{
 					"id": 1,
+					"style": "sport",
 					"caption": "直播一号",
 					"summary": "大家好欢迎来到直播一号",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 2,
+					"style": "game",
 					"caption": "直播二号",
 					"summary": "大家好欢迎来到直播二号",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 3,
+					"style": "sport",
 					"caption": "直播三号",
 					"summary": "大家好欢迎来到直播三号",
 					"image": "https://lorempixel.com/1920/400/"
 				},
 				{
 					"id": 4,
+					"style": "game",
 					"caption": "直播四号",
 					"summary": "大家好欢迎来到直播四号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 5,
+					"style": "sport",
+					"caption": "直播五号",
+					"summary": "大家好欢迎来到直播五号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 6,
+					"style": "game",
+					"caption": "直播六号",
+					"summary": "大家好欢迎来到直播六号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 7,
+					"style": "sport",
+					"caption": "直播七号",
+					"summary": "大家好欢迎来到直播七号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 8,
+					"style": "game",
+					"caption": "直播八号",
+					"summary": "大家好欢迎来到直播八号",
 					"image": "https://lorempixel.com/1920/400/"
 				}
 			]

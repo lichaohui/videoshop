@@ -4,11 +4,13 @@
 		<keep-alive>
       <router-view></router-view>
 		</keep-alive>
+		<footers></footers>
 	</div>
 </template>
 
 <script>
   import navbar from './components/navbar/index.vue'
+	import footers from './components/footer/index.vue'
 	
   export default {
     name: 'app',
@@ -21,7 +23,8 @@
     methods: {
     },
 		components: {
-			navbar
+			navbar,
+			footers
 		}
   };
 </script>

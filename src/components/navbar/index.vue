@@ -5,16 +5,9 @@
 		<b-collapse is-nav id="nav_collapse">
 			<b-navbar-nav>
 				<b-nav-item href="/">首页</b-nav-item>
-				<b-nav-item href="/tv">电视剧</b-nav-item>
-				<b-nav-item-dropdown text="电影">
-					<b-dropdown-item href="/movie?type=all">综合</b-dropdown-item>
-					<b-dropdown-item href="/movie?type=comedy">喜剧</b-dropdown-item>
-					<b-dropdown-item href="/movie?type=love">爱情</b-dropdown-item>
-					<b-dropdown-item href="/movie?type=terror">恐怖</b-dropdown-item>
-					<b-dropdown-item href="/movie?type=action">动作</b-dropdown-item>
+				<b-nav-item-dropdown v-for='nav in navs' v-bind:text='nav.type.nameInChinese'>
+				  <b-dropdown-item v-for='style in nav.styles' v-bind:href="'/'+nav.type.name+'?style='+style.name+'&page=1'">{{ style.nameInChinese }}</b-dropdown-item>
 				</b-nav-item-dropdown>
-				<b-nav-item href="/variety">综艺</b-nav-item>
-				<b-nav-item href="/live">直播</b-nav-item>
 			</b-navbar-nav>
 			<!-- Right aligned nav items -->
 			<b-navbar-nav class="ml-auto">

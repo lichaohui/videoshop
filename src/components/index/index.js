@@ -1,5 +1,4 @@
 import carousel from '../carousel/index.vue'
-import footers from '../footer/index.vue'
 
 export default {
 	props: {
@@ -7,30 +6,11 @@ export default {
 	data() {
 		return {
 			banners: [],
-			resources: [
-				{
-					type: 'tv',
-					data: []
-				},
-				{
-					type: 'movie',
-					showingType: 'all',
-					data: []
-				},
-				{
-					type: 'variety',
-					data: []
-				},
-				{
-					type: 'live',
-					data: []
-				}
-			]
+			resources: []
 		}
 	},
 	components: {
-		carousel,
-		footers
+		carousel
 	},
 	created() {
 		//获取旗舰产品
@@ -47,20 +27,13 @@ export default {
 		//获取全部资源
 		this.$http.get('/api/resource',{params: {type: 'all'}}).then((res) => {
 			if(res.body.isSuccess) {
-				let results = res.body.data
-				for(let resource of this.resources){
-					resource.data = results.filter((result) => {
-						return result.type == resource.type
-					})[0].data
-				}
+				this.resources = res.body.data
+				console.log(this.resources)
 			}else{
 				alert(res.statusText)
 			}
 		})
 	},
 	methods: {
-		movieShowingType(showingType){
-			this.resources[1].showingType = showingType
-		}
 	}
 }

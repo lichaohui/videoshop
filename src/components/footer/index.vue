@@ -1,5 +1,5 @@
 <template>
-  <footer class='container-fluid text-center'>
+  <footer class='text-center'>
 	   <hr>
      <p>木子科技</p>	
 	</footer>
