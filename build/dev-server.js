@@ -50,42 +50,60 @@ router.get('/navs',(req,res) => {
 //获取旗舰资源（主打的电视剧、电影）的路由
 router.get('/flagships',(req,res) => {
 	let flagships = appdata.flagships
-	let result = flagships.filter((flagship) => {
+	let _result, result
+	_result = flagships.filter((flagship) => {
 	  return flagship.type == req.query.type
 	})
+	if(req.query.style){
+		result = _result[0].banners.filter((banner) => {
+			return banner.style == req.query.style
+		})
+	}else{
+		result = _result[0].banners
+	}
 	res.json({
 		isSuccess: true,
-		data: result[0]
+		data: result
 	})
 })
 
 //获取资源的路由
 router.get('/resource',(req,res) => {
 	let resources = appdata.resource
-	let _results, results, page, pagesize
+	let _results, results, page, pagesize, total
 	page = req.query.page ? req.query.page : 1
 	pagesize = req.query.pagesize ? req.query.pagesize : 16
 	if(req.query.type == 'all'){
 		_results = resources
 	}else{
+		console.log('子页面')
 		_results = resources.filter((resource) => {
 			return resource.type.name == req.query.type
 		})
 	}
+	console.log('开始了')
+	console.log(_results)
+	console.log(_results[0].data)
 	if(req.query.style){
 		results = _results[0].data.filter((data) => {
 			return data.style == req.query.style
 		})
+		console.log('aa')
+		console.log(results)
+		total = results.length
+		console.log('长度：'+ total)
 		results = results.slice((page-1)*pagesize, page*pagesize)
 	}else{
 		results = _results
+		total = results
 		for(let result of results){
 			result.data = result.data.slice((page-1)*pagesize, page*pagesize)
 		}
 	}
 	res.json({
 		isSuccess: true,
-		data: results
+		data: results,
+		total: total
 	})
 })
 

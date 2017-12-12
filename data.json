@@ -100,7 +100,7 @@
 			"banners": [
 				{
 					"id": 1,
-					"style"； "lives",
+					"style": "lives",
 					"caption": "综艺一号",
 					"summary": "这里是综艺一号的信息",
 					"image": "https://lorempixel.com/1920/400/"
@@ -297,6 +297,370 @@
 					"style": "soap",
 					"caption": "电视剧十六号",
 					"summary": "大家好欢迎来到电视剧十六号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 17,
+					"style": "comedy",
+					"caption": "电视剧十七号",
+					"summary": "大家好欢迎来到电视剧十七号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 18,
+					"style": "history",
+					"caption": "电视剧十八号",
+					"summary": "大家好欢迎来到电视剧十八号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 19,
+					"style": "love",
+					"caption": "电视剧十九号",
+					"summary": "大家好欢迎来到电视剧十九号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 20,
+					"style": "soap",
+					"caption": "电视剧二十号",
+					"summary": "大家好欢迎来到电视剧二十号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 21,
+					"style": "comedy",
+					"caption": "电视剧二十一号",
+					"summary": "大家好欢迎来到电视剧二十一号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 22,
+					"style": "history",
+					"caption": "电视剧二十二号",
+					"summary": "大家好欢迎来到电视剧二十二号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 23,
+					"style": "love",
+					"caption": "电视剧二十三号",
+					"summary": "大家好欢迎来到电视剧二十三号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 24,
+					"style": "soap",
+					"caption": "电视剧二十四号",
+					"summary": "大家好欢迎来到电视剧二十四号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 25,
+					"style": "comedy",
+					"caption": "电视剧二十五号",
+					"summary": "大家好欢迎来到电视剧二十五号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 26,
+					"style": "history",
+					"caption": "电视剧二十六号",
+					"summary": "大家好欢迎来到电视剧二十六号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 27,
+					"style": "love",
+					"caption": "电视剧二十七号",
+					"summary": "大家好欢迎来到电视剧二十七号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 28,
+					"style": "soap",
+					"caption": "电视剧二十八号",
+					"summary": "大家好欢迎来到电视剧二十八号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 29,
+					"style": "comedy",
+					"caption": "电视剧二十九号",
+					"summary": "大家好欢迎来到电视剧二十九号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 30,
+					"style": "history",
+					"caption": "电视剧三十号",
+					"summary": "大家好欢迎来到电视剧三十号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 31,
+					"style": "love",
+					"caption": "电视剧三十一号",
+					"summary": "大家好欢迎来到电视剧三十一号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 32,
+					"style": "soap",
+					"caption": "电视剧三十二号",
+					"summary": "大家好欢迎来到电视剧三十二号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 33,
+					"style": "comedy",
+					"caption": "电视剧三十三号",
+					"summary": "大家好欢迎来到电视剧三十三号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 34,
+					"style": "history",
+					"caption": "电视剧三十四号",
+					"summary": "大家好欢迎来到电视剧三十四号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 35,
+					"style": "love",
+					"caption": "电视剧三十五号",
+					"summary": "大家好欢迎来到电视剧三十五号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 36,
+					"style": "soap",
+					"caption": "电视剧三十六号",
+					"summary": "大家好欢迎来到电视剧三十六号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 37,
+					"style": "comedy",
+					"caption": "电视剧三十七号",
+					"summary": "大家好欢迎来到电视剧三十七号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 38,
+					"style": "history",
+					"caption": "电视剧三十八号",
+					"summary": "大家好欢迎来到电视剧三十八号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 39,
+					"style": "love",
+					"caption": "电视剧三十九号",
+					"summary": "大家好欢迎来到电视剧三十九号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 40,
+					"style": "soap",
+					"caption": "电视剧四十号",
+					"summary": "大家好欢迎来到电视剧四十号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 41,
+					"style": "comedy",
+					"caption": "电视剧四十一号",
+					"summary": "大家好欢迎来到电视剧四十一号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 42,
+					"style": "history",
+					"caption": "电视剧四十二号",
+					"summary": "大家好欢迎来到电视剧四十二号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 43,
+					"style": "love",
+					"caption": "电视剧四十三号",
+					"summary": "大家好欢迎来到电视剧四十三号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 44,
+					"style": "soap",
+					"caption": "电视剧四十四号",
+					"summary": "大家好欢迎来到电视剧四十四号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 45,
+					"style": "comedy",
+					"caption": "电视剧四十五号",
+					"summary": "大家好欢迎来到电视剧四十五号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 46,
+					"style": "history",
+					"caption": "电视剧四十六号",
+					"summary": "大家好欢迎来到电视剧四十六号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 47,
+					"style": "love",
+					"caption": "电视剧四十七号",
+					"summary": "大家好欢迎来到电视剧四十七号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 48,
+					"style": "soap",
+					"caption": "电视剧四十八号",
+					"summary": "大家好欢迎来到电视剧四十八号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 49,
+					"style": "comedy",
+					"caption": "电视剧四十九号",
+					"summary": "大家好欢迎来到电视剧四十九号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 50,
+					"style": "history",
+					"caption": "电视剧五十号",
+					"summary": "大家好欢迎来到电视剧五十号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 51,
+					"style": "love",
+					"caption": "电视剧五十一号",
+					"summary": "大家好欢迎来到电视剧五十一号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 52,
+					"style": "soap",
+					"caption": "电视剧五十二号",
+					"summary": "大家好欢迎来到电视剧五十二号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 53,
+					"style": "comedy",
+					"caption": "电视剧五十三号",
+					"summary": "大家好欢迎来到电视剧五十三号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 54,
+					"style": "history",
+					"caption": "电视剧五十四号",
+					"summary": "大家好欢迎来到电视剧五十四号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 55,
+					"style": "love",
+					"caption": "电视剧五十五号",
+					"summary": "大家好欢迎来到电视剧五十五号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 56,
+					"style": "soap",
+					"caption": "电视剧五十六号",
+					"summary": "大家好欢迎来到电视剧五十六号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 57,
+					"style": "comedy",
+					"caption": "电视剧五十七号",
+					"summary": "大家好欢迎来到电视剧五十七号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 58,
+					"style": "history",
+					"caption": "电视剧五十八号",
+					"summary": "大家好欢迎来到电视剧五十八号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 59,
+					"style": "love",
+					"caption": "电视剧五十九号",
+					"summary": "大家好欢迎来到电视剧五十九号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 60,
+					"style": "soap",
+					"caption": "电视剧六十号",
+					"summary": "大家好欢迎来到电视剧六十号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 61,
+					"style": "comedy",
+					"caption": "电视剧六十一号",
+					"summary": "大家好欢迎来到电视剧六十一号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 62,
+					"style": "history",
+					"caption": "电视剧六十二号",
+					"summary": "大家好欢迎来到电视剧六十二号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 63,
+					"style": "love",
+					"caption": "电视剧六十三号",
+					"summary": "大家好欢迎来到电视剧六十三号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 64,
+					"style": "soap",
+					"caption": "电视剧六十四号",
+					"summary": "大家好欢迎来到电视剧六十四号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 65,
+					"style": "comedy",
+					"caption": "电视剧六十五号",
+					"summary": "大家好欢迎来到电视剧六十五号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 66,
+					"style": "history",
+					"caption": "电视剧六十六号",
+					"summary": "大家好欢迎来到电视剧六十六号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 67,
+					"style": "love",
+					"caption": "电视剧六十七号",
+					"summary": "大家好欢迎来到电视剧六十七号",
+					"image": "https://lorempixel.com/1920/400/"
+				},
+				{
+					"id": 68,
+					"style": "soap",
+					"caption": "电视剧六十八号",
+					"summary": "大家好欢迎来到电视剧六十八号",
 					"image": "https://lorempixel.com/1920/400/"
 				}
 			]

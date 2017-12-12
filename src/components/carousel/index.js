@@ -11,10 +11,10 @@ export default {
 	},
 	methods: {
 		onSlideStart(slide) {
-        this.sliding = true;
+        this.sliding = true
     },
     onSlideEnd(slide) {
-        this.sliding = false;
+        this.sliding = false
     }
 	}
 }

@@ -1,4 +1,5 @@
 import carousel from '../carousel/index.vue'
+import page from '../page/index.vue'
 
 export default {
 	props: {
@@ -6,19 +7,29 @@ export default {
 	data() {
 		return {
 			banners: [],
-			resources: []
+			resources: [],
+			total: 0
 		}
 	},
 	components: {
-		carousel
+		carousel,
+		page
 	},
 	created() {
 		//获取旗舰产品
 		let search = window.location.pathname
 		let type = search.split('/')[1]
-		this.$http.get('/api/flagships',{params: {type: type}}).then((res) => {
+		let [
+			style,
+			page
+		] = [
+			this.getRequest().style,
+			this.getRequest().page
+		]
+		
+		this.$http.get('/api/flagships',{params: {type: type, style: style}}).then((res) => {
 			if(res.body.isSuccess) {
-				this.banners = res.body.data.banners
+				this.banners = res.body.data
 			}else{
 				alert(res.body.message)
 			}
@@ -27,15 +38,10 @@ export default {
 		})
 		
 		//获取对应的资源
-		let [
-			style,
-			page
-		] = [
-			this.getRequest().style,
-			this.getRequest().page
-		]
 		this.$http.get('/api/resource',{params: {type: type, style: style, page: page,pagesize: 8}}).then((res) => {
 			if(res.body.isSuccess) {
+				console.log(res.body)
+				this.total = res.body.total
 				this.resources = res.body.data
 			}else{
 				alert(res.statusText)

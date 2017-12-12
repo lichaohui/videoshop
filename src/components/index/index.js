@@ -16,7 +16,7 @@ export default {
 		//获取旗舰产品
 		this.$http.get('/api/flagships',{params: {type: 'index'}}).then((res) => {
 			if(res.body.isSuccess) {
-				this.banners = res.body.data.banners
+				this.banners = res.body.data
 			}else{
 				alert(res.body.message)
 			}
