@@ -1,6 +1,6 @@
 export default{
 	props: {
-		total: {
+		pagecount: {
 			type: Number,
 			default: 0
 		}
@@ -12,7 +12,7 @@ export default{
   },
   methods: {
     linkGen (pageNum) {
-      return '#page/' + pageNum + '/foobar'
+      return '#&page=' + pageNum
     }
   }
 }

@@ -1,6 +1,6 @@
 <template>
   <main>
-	  <b-pagination-nav :link-gen="linkGen" v-bind:number-of-pages="total" v-model="currentPage" />
+	  <b-pagination-nav :link-gen="linkGen" v-bind:number-of-pages="pagecount" v-model="currentPage" />
 	</main>
 </template>
 

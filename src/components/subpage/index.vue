@@ -10,7 +10,7 @@
 			<p class="card-text">{{ data.summary }}</p>
 		  <b-button v-bind:href="'/tv/'+data.id" variant="primary" class='btn-sm' target="_blank">进入</b-button>
 		</b-card>
-		<page v-bind:total='total'></page>
+		<page v-bind:pagecount='pagecount'></page>
 	</main>
 </template>
 

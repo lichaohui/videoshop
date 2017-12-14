@@ -70,40 +70,24 @@ router.get('/flagships',(req,res) => {
 //获取资源的路由
 router.get('/resource',(req,res) => {
 	let resources = appdata.resource
-	let _results, results, page, pagesize, total
-	page = req.query.page ? req.query.page : 1
-	pagesize = req.query.pagesize ? req.query.pagesize : 16
+	let _results, results
 	if(req.query.type == 'all'){
 		_results = resources
 	}else{
-		console.log('子页面')
 		_results = resources.filter((resource) => {
 			return resource.type.name == req.query.type
 		})
 	}
-	console.log('开始了')
-	console.log(_results)
-	console.log(_results[0].data)
 	if(req.query.style){
 		results = _results[0].data.filter((data) => {
 			return data.style == req.query.style
 		})
-		console.log('aa')
-		console.log(results)
-		total = results.length
-		console.log('长度：'+ total)
-		results = results.slice((page-1)*pagesize, page*pagesize)
 	}else{
 		results = _results
-		total = results
-		for(let result of results){
-			result.data = result.data.slice((page-1)*pagesize, page*pagesize)
-		}
 	}
 	res.json({
 		isSuccess: true,
-		data: results,
-		total: total
+		data: results
 	})
 })
 

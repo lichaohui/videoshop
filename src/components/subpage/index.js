@@ -8,7 +8,7 @@ export default {
 		return {
 			banners: [],
 			resources: [],
-			total: 0
+			pagecount: 0
 		}
 	},
 	components: {
@@ -21,10 +21,12 @@ export default {
 		let type = search.split('/')[1]
 		let [
 			style,
-			page
+			page,
+			pagesize
 		] = [
 			this.getRequest().style,
-			this.getRequest().page
+			this.getRequest().page,
+			this.getRequest().pagesize ? this.getRequest().pagesize : 8
 		]
 		
 		this.$http.get('/api/flagships',{params: {type: type, style: style}}).then((res) => {
@@ -38,11 +40,10 @@ export default {
 		})
 		
 		//获取对应的资源
-		this.$http.get('/api/resource',{params: {type: type, style: style, page: page,pagesize: 8}}).then((res) => {
+		this.$http.get('/api/resource',{params: {type: type, style: style}}).then((res) => {
 			if(res.body.isSuccess) {
-				console.log(res.body)
-				this.total = res.body.total
-				this.resources = res.body.data
+				this.pagecount = Math.ceil(res.body.data.length/pagesize)
+				this.resources = res.body.data.slice((page-1)*pagesize, page*pagesize)
 			}else{
 				alert(res.statusText)
 			}
